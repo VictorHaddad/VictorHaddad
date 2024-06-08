@@ -80,7 +80,7 @@ Com vasta experiência em RPA, crio soluções que automatizam tarefas repetitiv
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/rodrigozavan/rodrigozavan/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/VictorHaddad/VictorHaddad/output/snake.svg" alt="Snake animation" />
 
 ###
 
