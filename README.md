@@ -16,7 +16,7 @@ Com vasta experiência em RPA, crio soluções que automatizam tarefas repetitiv
 
 ###
 
-<img align="right" height="180" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2xubTYxdHFuc2NhZzg5bm9ua2dscmljbHByYWwxMjR4ZDE1ZW9uciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/st5a7FHzwqbHjC2Mpy/giphy.gif" style="border: 2px solid; border-radius: 12px;" />
+<img align="right" height="180" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2xubTYxdHFuc2NhZzg5bm9ua2dscmljbHByYWwxMjR4ZDE1ZW9uciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/st5a7FHzwqbHjC2Mpy/giphy.gif" style="border: 2px solid; border-radius: 13px;" />
 
 ###
 
