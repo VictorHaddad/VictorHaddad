@@ -1,10 +1,51 @@
-<p align="left">Olá, atuo na área de Automação de Processos Robóticos (RPA), com especialização em automação web utilizando a linguagem Python. Meu foco principal é otimizar processos empresariais, promovendo eficiência e reduzindo custos através da automação inteligente.
+<p align="left">👨‍💻 Olá, Sou Consultor de Automação de Processos com sólida experiência em RPA (Robotic Process Automation), especializado no desenvolvimento de soluções inteligentes com Python para automações web, desktop e integração entre sistemas.
 
-Linguagem: Python
-Principais Ferramentas de Automação: Playwright, Requests, Beautiful Soup
-Habilidades: Desenvolvimento de scripts de automação, integração de sistemas, otimização de processos, análise de dados, raspagem de dados.
+Atuo diretamente na análise, mapeamento e otimização de processos operacionais, criando automações personalizadas que eliminam tarefas repetitivas, reduzem custos e aumentam a produtividade das equipes. Tenho experiência com sistemas legados como PROTHEUS (TOTVS) e plataformas modernas baseadas em API e Web.
 
-Com vasta experiência em RPA, crio soluções que automatizam tarefas repetitivas e manuais, permitindo que as empresas foquem em atividades estratégicas e de maior valor. Utilizando algumas ferramentas como Playwright e Requests, desenvolvo automações robustas e escaláveis para uma variedade de aplicações.</p>
+🚀 O que eu entrego
+ - Automação de Processos (RPA) end-to-end: da identificação da oportunidade até a entrega em produção;
+
+ - Criação de robôs escaláveis e resilientes utilizando Playwright, Selenium, Scrapy e Requests;
+
+ - Integração com sistemas internos, planilhas, plataformas web e APIs;
+
+ - Desenvolvimento de soluções que se adaptam a ambientes complexos e com alta demanda de dados;
+
+ - Orquestração de processos com BPMS e pipelines automatizados;
+
+ - Aplicação de conceitos de qualidade de dados, versionamento e manutenção contínua das automações.
+
+🧰 Stack de Tecnologias
+Linguagem principal:
+
+ - Python (experiência sólida com aplicações práticas em automação, scraping e manipulação de dados)
+
+ - Bibliotecas e Frameworks:
+
+ - Playwright, Selenium, Scrapy, Requests, BeautifulSoup
+
+ - Pandas, JSON, Regex (tratamento de dados e lógica de negócio)
+
+Ambientes e DevOps:
+
+ - Linux (shell scripts e automações em terminal)
+
+ - Git/GitHub (versionamento, organização de repositórios)
+
+ - Conhecimentos em Docker e virtual environments
+
+Outras Tecnologias:
+
+ - JavaScript, TypeScript, React, Java (conhecimentos complementares aplicados a integrações e manutenção de sistemas)
+
+ - BPMS (para modelagem e orquestração de processos)
+
+🌱 Em constante evolução
+Sou movido por inovação e aprendizado contínuo. Atualmente, estou estudando e experimentando Inteligência Artificial Generativa (IA) para aplicar em fluxos de automação avançada, extração de insights e atendimento inteligente.
+Meu foco é unir eficiência operacional com tecnologia de ponta, levando automação a um nível estratégico nas organizações.
+
+
+</p>
 
 ###
 
