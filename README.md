@@ -59,7 +59,13 @@ Com vasta experiência em RPA, crio soluções que automatizam tarefas repetitiv
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=fastapi" height="30" alt="fastapi logo"/>
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=discord" height="30" alt="discord logo"/>
+  <img src="https://skillicons.dev/icons?i=discord" height="30" alt="discord logo"/>  
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=eclipse" height="30" alt="eclipse logo"/>
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=linux" height="30" alt="linux logo"/>
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=java" height="30" alt="java logo"/>
 </div>
 
 ###
