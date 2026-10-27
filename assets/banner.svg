@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Victor Haddad — Automação de Processos, RPA e IA aplicada</title>
+  <desc id="desc">Banner com o nome Victor Haddad, os papéis consultor de automação de processos, desenvolvedor RPA e IA aplicada, e um pipeline animado em quatro etapas: coleta, robô, IA e entrega.</desc>
+
+  <style>
+    .display { font-family: 'Space Grotesk', 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+
+    .flow { stroke-dasharray: 6 10; animation: flow 1s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -32; } }
+
+    /* o chip acende quando um pacote passa por ele (2 pacotes num ciclo de 5s) */
+    .box { animation: pulse 2.5s ease-out infinite; }
+    .n2 .box { animation-delay: -0.547s; }
+    .n3 .box { animation-delay: -1.953s; }
+    @keyframes pulse { 0% { stroke-opacity: 1; } 40%, 100% { stroke-opacity: .35; } }
+
+    .live { animation: live 2s ease-in-out infinite; }
+    @keyframes live { 50% { opacity: .25; } }
+
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <defs>
+    <clipPath id="card"><rect width="1200" height="320" rx="18"/></clipPath>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".05"/>
+    </pattern>
+    <linearGradient id="gridFade" x1="0" x2="1">
+      <stop offset=".25" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="fade"><rect width="1200" height="320" fill="url(#gridFade)"/></mask>
+
+    <radialGradient id="glowCyan">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet">
+      <stop offset="0" stop-color="#7b5cff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#7b5cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowMagenta">
+      <stop offset="0" stop-color="#ff2d95" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#ff2d95" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset=".5" stop-color="#7b5cff"/>
+      <stop offset="1" stop-color="#ff2d95"/>
+    </linearGradient>
+    <linearGradient id="flowGrad" gradientUnits="userSpaceOnUse" x1="792" y1="0" x2="1056" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#ff2d95"/>
+    </linearGradient>
+
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!--
+      Efeito de digitação: cada papel é revelado por um clip que cresce até a largura do texto.
+      Ciclo de 12s, um papel a cada 4s. Ao trocar um texto, ajuste o textLength (0.6 x 24px por caractere)
+      e os valores de largura do clip e do cursor (cursor = 82 + largura).
+    -->
+    <clipPath id="role1"><rect x="80" y="196" height="36" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite"
+        keyTimes="0;.1;.28;.31;1" values="0;508;508;0;0"/>
+    </rect></clipPath>
+    <clipPath id="role2"><rect x="80" y="196" height="36" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite"
+        keyTimes="0;.3333;.4333;.6133;.6433;1" values="0;0;378;378;0;0"/>
+    </rect></clipPath>
+    <clipPath id="role3"><rect x="80" y="196" height="36" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite"
+        keyTimes="0;.6667;.7667;.9467;.9767;1" values="0;0;450;450;0;0"/>
+    </rect></clipPath>
+  </defs>
+
+  <!-- fundo -->
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="#06070d"/>
+    <rect width="1200" height="320" fill="url(#grid)" mask="url(#fade)"/>
+    <circle cx="120" cy="20" r="320" fill="url(#glowCyan)"/>
+    <circle cx="900" cy="0" r="260" fill="url(#glowViolet)"/>
+    <circle cx="1140" cy="330" r="300" fill="url(#glowMagenta)"/>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="318.5" rx="17.25" fill="none" stroke="#1b2035" stroke-width="1.5"/>
+
+  <!-- cantos estilo HUD -->
+  <g fill="none" stroke="#00e5ff" stroke-opacity=".55" stroke-width="2">
+    <path d="M16 34V16H34"/>
+    <path d="M1166 16H1184V34"/>
+    <path d="M1184 286V304H1166"/>
+    <path d="M34 304H16V286"/>
+  </g>
+
+  <!-- identidade -->
+  <rect x="56" y="80" width="22" height="2" fill="#00e5ff"/>
+  <text x="88" y="86" class="mono" font-size="13" letter-spacing="3" fill="#00e5ff">AUTOMAÇÃO · RPA · IA APLICADA</text>
+
+  <text x="52" y="156" class="display" font-size="64" font-weight="700" letter-spacing="-1" fill="#e8ecf5">Victor Haddad</text>
+  <rect x="56" y="176" width="96" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <text x="56" y="222" class="mono" font-size="24" font-weight="700" fill="#ff2d95">&gt;</text>
+  <g class="mono" font-size="24" fill="#00e5ff">
+    <text x="82" y="222" textLength="504" lengthAdjust="spacing" clip-path="url(#role1)">consultor de automação de processos</text>
+    <text x="82" y="222" textLength="374" lengthAdjust="spacing" clip-path="url(#role2)">desenvolvedor rpa · python</text>
+    <text x="82" y="222" textLength="446" lengthAdjust="spacing" clip-path="url(#role3)">ia aplicada a fluxos de negócio</text>
+  </g>
+  <rect x="82" y="203" width="11" height="24" fill="#00e5ff" fill-opacity=".85">
+    <animate attributeName="x" dur="12s" repeatCount="indefinite"
+      keyTimes="0;.1;.28;.31;.3333;.4333;.6133;.6433;.6667;.7667;.9467;.9767;1"
+      values="82;590;590;82;82;460;460;82;82;532;532;82;82"/>
+    <animate attributeName="opacity" dur="1s" repeatCount="indefinite" calcMode="discrete" values="1;0"/>
+  </rect>
+
+  <circle cx="62" cy="269" r="4" fill="#00e5ff" class="live"/>
+  <text x="76" y="274" class="mono" font-size="14" fill="#8a93a6">disponível para projetos <tspan fill="#3a4260">·</tspan> bauru, sp — brasil</text>
+
+  <!-- pipeline: coleta → robô → ia → entrega -->
+  <path d="M694 242H666V94H694" fill="none" stroke="#8a93a6" stroke-opacity=".35" stroke-width="1.5" stroke-dasharray="3 5"/>
+  <path d="M672 100L666 94L660 100" fill="none" stroke="#8a93a6" stroke-opacity=".5" stroke-width="1.5"/>
+
+  <path d="M792 94H1056V242H792" fill="none" stroke="#232a44" stroke-width="2"/>
+  <path d="M792 94H1056V242H792" fill="none" stroke="url(#flowGrad)" stroke-width="2" class="flow"/>
+
+  <circle r="5" fill="#00e5ff" filter="url(#glow)">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M792 94H1056V242H792"/>
+  </circle>
+  <circle r="4" fill="#ff2d95" filter="url(#glow)">
+    <animateMotion dur="5s" begin="-2.5s" repeatCount="indefinite" path="M792 94H1056V242H792"/>
+  </circle>
+
+  <text x="924" y="172" class="mono" font-size="13" fill="#8a93a6" text-anchor="middle">execução 24/7 · logs · alertas</text>
+
+  <g class="mono">
+    <g class="n1">
+      <rect class="box" x="694" y="64" width="196" height="60" rx="10" fill="#0a0c16" stroke="#00e5ff" stroke-width="1.5"/>
+      <circle cx="874" cy="80" r="3" fill="#00e5ff"/>
+      <text x="712" y="91" font-size="16" font-weight="700"><tspan fill="#00e5ff">01</tspan><tspan fill="#e8ecf5" dx="10">coleta</tspan></text>
+      <text x="712" y="111" font-size="13" fill="#8a93a6">web · erp · planilhas</text>
+    </g>
+    <g class="n2">
+      <rect class="box" x="958" y="64" width="196" height="60" rx="10" fill="#0a0c16" stroke="#7b5cff" stroke-width="1.5"/>
+      <circle cx="1138" cy="80" r="3" fill="#7b5cff"/>
+      <text x="976" y="91" font-size="16" font-weight="700"><tspan fill="#7b5cff">02</tspan><tspan fill="#e8ecf5" dx="10">robô</tspan></text>
+      <text x="976" y="111" font-size="13" fill="#8a93a6">python · playwright</text>
+    </g>
+    <g class="n3">
+      <rect class="box" x="958" y="212" width="196" height="60" rx="10" fill="#0a0c16" stroke="#ff2d95" stroke-width="1.5"/>
+      <circle cx="1138" cy="228" r="3" fill="#ff2d95"/>
+      <text x="976" y="239" font-size="16" font-weight="700"><tspan fill="#ff2d95">03</tspan><tspan fill="#e8ecf5" dx="10">ia</tspan></text>
+      <text x="976" y="259" font-size="13" fill="#8a93a6">llm · extração</text>
+    </g>
+    <g class="n4">
+      <rect class="box" x="694" y="212" width="196" height="60" rx="10" fill="#0a0c16" stroke="#00e5ff" stroke-width="1.5"/>
+      <circle cx="874" cy="228" r="3" fill="#00e5ff"/>
+      <text x="712" y="239" font-size="16" font-weight="700"><tspan fill="#00e5ff">04</tspan><tspan fill="#e8ecf5" dx="10">entrega</tspan></text>
+      <text x="712" y="259" font-size="13" fill="#8a93a6">api · relatórios</text>
+    </g>
+  </g>
+</svg>
